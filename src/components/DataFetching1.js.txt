@@ -1,0 +1,130 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-hooks/rules-of-hooks */
+import React,{useState,useEffect} from 'react'
+import axios from 'axios'
+import { styled } from '@mui/material/styles';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell, { tableCellClasses } from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
+
+function DataFetching () {
+ 
+     const [data, setData] = useState([]);
+    //  const[post, setPost]= useState({})
+     const [id,setId]=useState([])
+    
+     const [idFormButtonClick,setIdFormButtonClick]=useState()
+       const handleClick =()=>{
+        setIdFormButtonClick(id)
+       }
+      //theme of table
+    const StyledTableCell = styled(TableCell)(({ theme }) => ({
+      [`&.${tableCellClasses.head}`]: {
+        backgroundColor: theme.palette.common.black,
+        color: theme.palette.common.white,
+     },
+
+     [`&.${tableCellClasses.body}`]: {
+       fontSize: 14,
+     },
+    }));
+ //theme of row
+const StyledTableRow = styled(TableRow)(({ theme }) => ({
+  '&:nth-of-type(odd)': {
+    backgroundColor: theme.palette.action.hover,
+  },
+  // hide last border
+  '&:last-child td, &:last-child th': {
+    border: 1,
+  },
+}));
+     useEffect (()=>{
+      // axios.delete(`https://jsonplaceholder.typicode.com/posts/${id}`)
+     //axios.post(`https://jsonplaceholder.typicode.com/posts/`,{title:'hi',body:'hello'})
+      // axios.get(`https://jsonplaceholder.typicode.com/posts/${idFormButtonClick}`)
+      axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`) 
+         .then(res=>{
+          console.log(res.data)
+             setData(res.data)
+            
+         })
+
+       .catch(err => {
+        console.log(err)
+      })
+     },)
+    
+  return (
+    <div>
+ {/* <div> */}
+ {/* <input  type="text"  value={id} onChange={e=>setId(e.target.value)}/>
+      <button type="button" onClick={handleClick} style={{color:"red"}}>Fetch post</button> */}    
+{/* </div> */}
+      <div>
+       <TableContainer component={Paper}>
+      <Table sx={{ minWidth: 700 }} aria-label="customized table">
+
+        <TableHead>
+            <TableRow>
+               <StyledTableCell>Id </StyledTableCell>
+               <StyledTableCell align="center">Title</StyledTableCell>
+               <StyledTableCell align="center">Body</StyledTableCell>
+            </TableRow>
+        </TableHead>
+
+        <TableBody>
+            {data.map((post) => (
+                <StyledTableRow key={post.id}>
+                   <StyledTableCell component="th" scope="row">{post.id}</StyledTableCell>  
+                   <StyledTableCell align="left">{post.title}</StyledTableCell>
+                   <StyledTableCell align="left">{post.body}</StyledTableCell>
+                </StyledTableRow>
+          ))}
+        </TableBody> 
+
+      </Table>
+    </TableContainer>
+    </div>      
+    </div>
+    
+   //tableau normale
+    // <div>
+ //* <table border={1}>
+//       <thead>
+//         <tr>
+//           <th>Id</th>
+//           <th>Title</th>
+//           <th>body</th>
+//         </tr>
+//       </thead>
+//       <tbody>
+//         {data.map(post=>( 
+//           <tr key={post.id}>
+//             <td>{post.id}</td>
+//             <td>{post.title}</td>
+//             <td>{post.body}</td>
+//           </tr>
+//         ))}
+//       </tbody>
+//     </table>
+// </div>
+          
+    
+  )
+}
+export default DataFetching;
+
+          //   <input  type="text"  value={id} onChange={e=>setId(e.target.value)}/>
+          //  <button type="button" onClick={handleClick} style={{color:"red"}}>Fetch post</button>
+
+
+          //  {/* todhhrelna 3al page l kol */}
+          //   {/* <ul>
+          //    {post.map(post=>( 
+          //      <li key={post.id}>{post.title}</li>
+          //    ))}
+          // </ul>   */}

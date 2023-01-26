@@ -1,0 +1,1432 @@
+{
+    "status": "success",
+    "searchCode": "575e7380-cb5a-4272-a06d-dda59e5c1319",
+    "cars": [
+        {
+            "name": "RENAULT CLIO 4 LIFE PLUS 2",
+            "externalCode": "RENAULT|CLIO 4 LIFE PLUS 2",
+            "modelId": 569,
+            "availability": 1,
+            "category": {
+                "code": "CI",
+                "name": "Citadine"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>BOÎTE\tManuelle\n<li>NOMBRE DE RAPPORTS\t5\n<li>EQUIPEMENTS DE SÉCURITÉ\n<li>ABS\t\n<li>AIRBAGS\tFrontaux | Latéraux\n<li>ANTI-PATINAGE\tESP\n<li>CONTRÔLE DE PRESSION DES PNEUS\t\n<li> NOMBRE DE CYLINDRES\t3\n<li> ENERGIE\tEssence\n<li> COUPLE\t140 nm 2250 tr/min\n<li> CYLINDRÉE\t898 CM³\n<li> LONGUEUR\t4063 mm\n<li> LARGEUR\t1732 mm\n<li> HAUTEUR\t1448 mm\n<li> VOLUME DU COFFRE\t300 L\n<li> PERFORMANCES\t\n<li> 0-100 KM/H\t12.2 s\n<li> VITESSE MAXI\t182 KM/H\n<li> CONSOMMATION URBAINE\t6.9 L/100 km\n<li> EQUIPEMENTS INTÉRIEURS\t\n<li> CONNECTIVITÉ\t2 USB\nBluetooth\nR&GO\n<li>EQUIPEMENTS FONCTIONNELS\n<li> CLIMATISATION\tManuelle\n<li>FERMETURE CENTRALISÉE\tÀ distance\n<li>ORDINATEUR DE BORD\n</ul>",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": "",
+                "dors": 4,
+                "seats": 5,
+                "smallBag": "",
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/569/Renault CLIO 4.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|569||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 889,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "TOYOTA AGYA (BVM)",
+            "externalCode": "TOYOTA|AGYA (BVM)",
+            "modelId": 570,
+            "availability": 0,
+            "category": {
+                "code": "MI",
+                "name": "Mini City"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>CARACTÉRISTIQUES.</li>\n<li>NOMBRE DE PLACES\t5.</li>\n<li>NOMBRE DE PORTES\t5 .</li>\n<li>TRANSMISSION.</li>\n<li>BOÎTE\tMANUEL.</li>\n<li>NOMBRE DE RAPPORTS\t5.</li>\n<li>TRANSMISSION\tTraction.</li>\n<li>PERFORMANCES.</li>\n<li>0-100 KM/H\tN.C.</li>\n<li>VITESSE MAXI\t170 KM/H.</li>\n<li>EQUIPEMENTS DE SÉCURITÉ.</li>\n<li>ABS\t.</li>\n<li>AIRBAGS\tFrontaux.</li>\n<li>ALARME ANTIVOL.</li>\n<li>ANTI-DÉMARRAGE ÉLECTRONIQUE.</li>\n<li>FIXATIONS ISOFIX.</li>\n<li>MOTORISATION.</li>\n<li>NOMBRE DE CYLINDRES\t4.</li>\n<li>ENERGIE\tEssence.</li>\n<li>LONGUEUR\t3660 mm.</li>\n<li>LARGEUR\t1600 mm.</li>\n<li>HAUTEUR\t1520 mm.</li>\n<li>CONSOMMATION URBAINE\t5.9 L/100 km.</li>\n<li>EQUIPEMENTS INTÉRIEURS.</li>\n<li>AUTORADIO\tCommandes au volant.</li>\n<li>CONNECTIVITÉ\tBluetooth.</li>\n<li>ECRAN\tTactile.</li>\n<li>EQUIPEMENTS FONCTIONNELS.</li>\n<li>BOUTON START & STOP\tDémarrage mains libres.</li>\n<li>CLIMATISATION\tManuelle.</li>\n<li>DIRECTION ASSISTÉE\tÉlectrique.</li>\n<li>FERMETURE CENTRALISÉE\tÀ distance.</li>\n<li>ORDINATEUR DE BORD\t.</li>\n<li>RÉTROVISEURS EXTÉRIEURS\tÉlectriques | Rabattables | Avec clignotants intégrés.</li>\n<li>VITRES ÉLECTRIQUES\tAvant/Arrière.</li>\n<li>VOLANT RÉGLABLE\tEn hauteur.</li>\n</ul>",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": 1,
+                "dors": 4,
+                "seats": 5,
+                "smallBag": 2,
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/570/Toyota Agya.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|570||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 689.75,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "DACIA LOGAN MCV",
+            "externalCode": "DACIA|LOGAN MCV",
+            "modelId": 576,
+            "availability": 1,
+            "category": {
+                "code": "FA",
+                "name": "Familiale"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>CARACTÉRISTIQUES.</li>\n<li>NOMBRE DE PLACES\t5.</li>\n<li>NOMBRE DE PORTES\t5.</li>\n<li>BOÎTE\tManuelle.</li>\n<li>NOMBRE DE RAPPORTS\t5.</li>\n<li>TRANSMISSION\tTraction.</li>\n<li>PERFORMANCES.</li>\n<li>0-100 KM/H\t14.7 s.</li>\n<li>VITESSE MAXI\t158 KM/H.</li>\n<li>EQUIPEMENTS DE SÉCURITÉ.</li>\n<li>AIRBAGS\tFrontaux.</li>\n<li>ANTI-DÉMARRAGE ÉLECTRONIQUE.</li>\n<li>FIXATIONS ISOFIX.</li>\n<li>NOMBRE DE CYLINDRES\t3.</li>\n<li>ENERGIE\tEssence.</li>\n<li>LONGUEUR\t4494 mm.</li>\n<li>LARGEUR\t1733 mm.</li>\n<li>HAUTEUR\t1518 mm.</li>\n<li>VOLUME DU COFFRE\t573 L.</li>\n<li>CONSOMMATION URBAINE\t6.6 L/100 km.</li>\n<li>EQUIPEMENTS INTÉRIEURS.</li>\n<li>AUTORADIO\tCommandes au volant.</li>\n<li>CONNECTIVITÉ\tBluetooth.</li>\n<li>SELLERIE\tTissu.</li>\n<li>VITRES\tTeintées.</li>\n<li>EQUIPEMENTS FONCTIONNELS.</li>\n<li>COFFRE À BAGAGES\tCache Bagages.</li>\n<li>CLIMATISATION\tManuelle.</li>\n<li>FERMETURE CENTRALISÉE\tÀ distance.</li>\n<li>RÉTROVISEURS EXTÉRIEURS\tÉlectriques.</li>\n<li>VITRES ÉLECTRIQUES\tAvant.</li>\n<li>VOLANT RÉGLABLE\tEn hauteur.</li>\n</ul>\n",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": 3,
+                "dors": 4,
+                "seats": 5,
+                "smallBag": 5,
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/576/Dacia-Logan-MCV-1.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|576||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 786.75,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "FIAT PANDA",
+            "externalCode": "FIAT|PANDA",
+            "modelId": 580,
+            "availability": 1,
+            "category": {
+                "code": "MI",
+                "name": "Mini City"
+            },
+            "equipment": {
+                "more": "",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": 1,
+                "dors": 4,
+                "seats": 5,
+                "smallBag": 2,
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/580/FIAT Panda.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|580||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 689.75,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "RENAULT SYMBOL",
+            "externalCode": "RENAULT|SYMBOL ELEGANCE",
+            "modelId": 626,
+            "availability": 1,
+            "category": {
+                "code": "CI",
+                "name": "Citadine"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>BOÎTE\tManuelle\n<li>NOMBRE DE RAPPORTS\t5\n<li>EQUIPEMENTS DE SÉCURITÉ\n<li>ABS\n<li>AIRBAGS\tFrontaux\n<li>ASSISTANCE AU FREINAGE\tEBD\n<li>ANTI-DÉMARRAGE ÉLECTRONIQUE\n<li>PERFORMANCES\n0-100 KM/H\t14.5 s\n<li>VITESSE MAXI\t151 KM/H\n<li>MOTORISATION\n<li>ENERGIE\tEssence\n<li>LONGUEUR\t4346 mm\n<li>LARGEUR\t1733 mm\n<li>HAUTEUR\t1517 mm\n<li>VOLUME DU COFFRE\t510 L\n<li>CONSOMMATION\nCONSOMMATION URBAINE\t6.6 L/100 km\n<li>EQUIPEMENTS INTÉRIEURS\n<li>AUTORADIO\tCommandes au volant\n<li>CONNECTIVITÉ\tUSB | Bluetooth\n<li>EQUIPEMENTS FONCTIONNELS\n<li>CLIMATISATION\tManuelle\n<li>FERMETURE CENTRALISÉE\tÀ distance\n<ul>",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": 2,
+                "dors": 4,
+                "seats": 5,
+                "smallBag": 4,
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/626/Renault Symbol.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|626||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 731.75,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "TOYOTA YARIS",
+            "externalCode": "TOYOTA|YARIS",
+            "modelId": 627,
+            "availability": 1,
+            "category": {
+                "code": "MI",
+                "name": "Mini City"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>CARACTÉRISTIQUES.</li>\n<li>NOMBRE DE PLACES\t5.</li>\n<li>NOMBRE DE PORTES\t5.</li>\n<li>TRANSMISSION.</li>\n<li>BOÎTE\tManuelle.</li>\n<li>NOMBRE DE RAPPORTS\t5.</li>\n<li>TRANSMISSION\tTraction.</li>\n<li>PERFORMANCES.</li>\n<li>0-100 KM/H\t15.3 s.</li>\n<li>VITESSE MAXI\t155 KM/H.</li>\n<li>EQUIPEMENTS DE SÉCURITÉ.</li>\n<li>ABS\t.</li>\n<li>AIRBAGS\tFrontaux | Latéraux | Rideaux | Centraux.</li>\n<li>ANTI-PATINAGE\tESP.</li>\n<li>ASSISTANCE AU FREINAGE\tEBA | EBD.</li>\n<li>ANTI-DÉMARRAGE ÉLECTRONIQUE\t.</li>\n<li>FIXATIONS ISOFIX\t.</li>\n<li>MOTORISATION.</li>\n<li>NOMBRE DE CYLINDRES\t3.</li>\n<li>ENERGIE\tEssence.</li>\n<li>LONGUEUR\t3940 mm.</li>\n<li>LARGEUR\t1745 mm.</li>\n<li>HAUTEUR\t1470 mm.</li>\n<li>VOLUME DU COFFRE\t284 L.</li>\n<li>CONSOMMATION URBAINE\t5.5 L/100 km.</li>\n<li>EQUIPEMENTS INTÉRIEURS.</li>\n<li>AUTORADIO\t6 haut-parleurs | Commandes au volant.</li>\n<li>CONNECTIVITÉ\tUSB | Apple Carplay | Android Auto | AUX | Bluetooth.</li>\n<li>ECRAN\tTactile | 7 pouces.</li>\n<li>SELLERIE\tTissu.</li>\n<li>VOLANT\tMulti-fonctions.</li>\n<li>3 APPUIS TÊTES ARRIÈRES\t.</li>\n<li>EQUIPEMENTS FONCTIONNELS.</li>\n<li>ALLUMAGE AUTOMATIQUE DES FEUX.</li>\t\n<li>CLIMATISATION\tManuelle.</li>\n<li>DIRECTION ASSISTÉE\tÉlectrique.</li>\n<li>FERMETURE CENTRALISÉE\tÀ distance.</li>\n<li>ORDINATEUR DE BORD\tEcran TFT 4.2''.</li>\n<li>RÉTROVISEURS EXTÉRIEURS\tÉlectriques | Avec clignotants intégrés.</li>\n<li>SIÈGES AVANT RÉGLABLES EN HAUTEUR\tConducteur.</li>\n<li>VOLANT RÉGLABLE\tEn hauteur et en profondeur.</li>\n<li>VITRES ÉLECTRIQUES\tAvant.</li>\n</ul>",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": 1,
+                "dors": 4,
+                "seats": 5,
+                "smallBag": 2,
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/627/Toyota Yaris.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|627||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 786.75,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "DACIA DOKKER",
+            "externalCode": "DACIA|DOKKER",
+            "modelId": 628,
+            "availability": 0,
+            "category": {
+                "code": "VO",
+                "name": "Voiture utilitaire"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>CARACTÉRISTIQUES.</li>\n<li>NOMBRE DE PLACES\t2.</li>\n<li>NOMBRE DE PORTES\t4 | 1 porte latérale coulissante | 2 portes arrières battantes tolées.</li>\n<li>TRANSMISSION.</li>\n<li>BOÎTE\tManuelle.</li>\n<li>TRANSMISSION\tTraction.</li>\n<li>PERFORMANCES.</li>\n<li>0-100 KM/H\t15.9 s.</li>\n<li>VITESSE MAXI\t162 KM/H.</li>\n<li>EQUIPEMENTS DE SÉCURITÉ.</li>\n<li>ABS\t.</li>\n<li>AIRBAGS\tFrontal conducteur.</li>\n<li>ASSISTANCE AU FREINAGE\tAFU.</li>\n<li>ANTI-DÉMARRAGE ÉLECTRONIQUE\t.</li>\n<li>  MOTORISATION.</li>\n<li>NOMBRE DE CYLINDRES\t4.</li>\n<li>ENERGIE\tDiesel.</li>\n<li>LONGUEUR\t4363 mm.</li>\n<li> LARGEUR\t1751 mm.</li>\n<li> HAUTEUR\t1842 mm.</li>\n<li> CHARGE UTILE\t750 KG.</li>\n<li> VOLUME UTILE\t3.3 m³.</li>\n<li>CONSOMMATION URBAINE\t5.2 L/100 km.</li>\n<li>  EQUIPEMENTS INTÉRIEURS.</li>\n<li>AUTORADIO\t.</li>\n<li>CONNECTIVITÉ\tBluetooth.</li>\n<li>KIT RANGEMENT\t.</li>\n<li>SELLERIE\tTissu.</li>\n<li>TAPIS DE SOL\tTapis de coffre PVC.</li>\n<li>EQUIPEMENTS FONCTIONNELS.</li>\n<li>CLIMATISATION\tManuelle.</li>\n<li>DIRECTION ASSISTÉE\t.</li>\n<li>ORDINATEUR DE BORD.</li>\n</ul>",
+                "ac": 1,
+                "fuel": "D",
+                "largeBag": "",
+                "dors": 2,
+                "seats": 2,
+                "smallBag": "",
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/628/Dacia-Dokker-Van-Lux.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|628||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 889,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "SKODA FABIA",
+            "externalCode": "SKODA|FABIA DRIVE",
+            "modelId": 635,
+            "availability": 1,
+            "category": {
+                "code": "ME",
+                "name": "Medium City"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>NOMBRE DE PLACES\t5.</li>\n<li>NOMBRE DE PORTES\t5.</li>\n<li>BOÎTE\tManuelle.</li>\n<li>NOMBRE DE RAPPORTS\t5.</li>\n<li>PERFORMANCES.</li>\n<li>0-100 KM/H\t14.9 s.</li>\n<li>VITESSE MAXI\t168 KM/H.</li>\n<li>EQUIPEMENTS DE SÉCURITÉ.</li>\n<li>ABS\t.</li>\n<li>AIRBAGS\tFrontaux.</li>\n<li>ANTI-DÉMARRAGE ÉLECTRONIQUE.</li>\t\n<li>MOTORISATION.</li>\n<li>NOMBRE DE CYLINDRES\t3.</li>\n<li>ENERGIE\tEssence.</li>\n<li>LONGUEUR\t3997 mm.</li>\n<li>LARGEUR\t1732 mm.</li>\n<li>HAUTEUR\t1467 mm.</li>\n<li>VOLUME DU COFFRE\t330 L.</li>\n<li>CONSOMMATION URBAINE\t6.0 L/100 km.</li>\n<li>EQUIPEMENTS INTÉRIEURS.</li>\n<li>AUTORADIO\tSWING.</li>\n<li>CONNECTIVITÉ\tUSB | Bluetooth.</li>\n<li>KIT FUMEURS\t.</li>\n<li>POMMEAU DE LEVIER DE VITESSE\tCuir.</li>\n<li>VOLANT\tCuir | 3 branches | Multi-fonctions.</li>\n<li>CLIMATISATION\tManuelle.</li>\n<li>ORDINATEUR DE BORD\t.</li>\n</ul>\n",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": "",
+                "dors": 4,
+                "seats": 5,
+                "smallBag": "",
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/635/skoda-fabia.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|635||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 889,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "SUZUKI SWIFT BVA",
+            "externalCode": "SUZUKI|SWIFT GLX BOITE AUTOMATIQUE",
+            "modelId": 636,
+            "availability": 1,
+            "category": {
+                "code": "MI",
+                "name": "Mini City"
+            },
+            "equipment": {
+                "more": "<ul>\n <li>CARACTÉRISTIQUES.</li>\n<li>CARROSSERIE\tCitadine.</li>\n<li>NOMBRE DE PLACES\t5.</li>\n<li>TRANSMISSION.</li>\n<li>BOÎTE\tAutomatique.</li>\n<li>NOMBRE DE RAPPORTS\t5.</li>\n<li>NOMBRE DE PORTES\t5.</li>\n<li>PERFORMANCES.</li>\n<li>VITESSE MAXI\t160 KM/H.</li>\n<li>  MOTORISATION.</li>\n<li>NOMBRE DE CYLINDRES\t4.</li>\n<li>DIMENSIONS.</li>\n<li>VOLUME DU COFFRE\t265 L.</li>\n<li>CONSOMMATION.</li>\n<li>CONSOMMATION URBAINE\t6.1 L/100 km.</li>\n<li>CONSOMMATION EXTRA-URBAINE\t4.4 L/100 km.</li>\n<li>CONSOMMATION MIXTE\t5 L/100 km.</li>\n</ul>",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": "",
+                "dors": 4,
+                "seats": 5,
+                "smallBag": "",
+                "gearbox": "A"
+            },
+            "images": [
+                "/photos/car/636/suzuki-swift.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|636||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 786.75,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "SUZUKI CIAZ BVA",
+            "externalCode": "SUZUKI|CIAZ GLX BOITE AUTOMATIQUE",
+            "modelId": 637,
+            "availability": 1,
+            "category": {
+                "code": "CO",
+                "name": "Confort City"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>CARACTÉRISTIQUES.</li>\n<li>NOMBRE DE PLACES\t5.</li>\n<li>TRANSMISSION.</li>\n<li>BOÎTE\tAutomatique.</li>\n<li>PERFORMANCES.</li>\n<li>VITESSE MAXI\t180 KM/H.</li>\n<li>MOTORISATION.</li>\n<li>NOMBRE DE CYLINDRES\t4.</li>\n<li>DIMENSIONS.</li>\n<li>VOLUME DU COFFRE\t510 L.</li>\n<li>CONSOMMATION.</li>\n<li>CONSOMMATION URBAINE\t7.2 L/100 km.</li>\n<li>CONSOMMATION EXTRA-URBAINE\t5 L/100 km.</li>\n<li>CONSOMMATION MIXTE\t6 L/100 km.</li>\n</ul>",
+                "ac": "",
+                "fuel": "E",
+                "largeBag": "",
+                "dors": 4,
+                "seats": 5,
+                "smallBag": "",
+                "gearbox": "A"
+            },
+            "images": [
+                "/photos/car/637/suzuki-ciaz.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|637||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 986,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "TOYOTA AGYA BVA",
+            "externalCode": "TOYOTA|AGYA BOITE AUTOMATIQUE",
+            "modelId": 638,
+            "availability": 1,
+            "category": {
+                "code": "MI",
+                "name": "Mini City"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>CARACTÉRISTIQUES.</li>\n<li>NOMBRE DE PLACES\t5.</li>\n<li>NOMBRE DE PORTES\t5 .</li>\n<li>TRANSMISSION.</li>\n<li>BOÎTE\tAUTOMATIQUE.</li>\n<li>NOMBRE DE RAPPORTS\t5.</li>\n<li>TRANSMISSION\tTraction.</li>\n<li>PERFORMANCES.</li>\n<li>0-100 KM/H\tN.C.</li>\n<li>VITESSE MAXI\t170 KM/H.</li>\n<li>EQUIPEMENTS DE SÉCURITÉ.</li>\n<li>ABS\t.</li>\n<li>AIRBAGS\tFrontaux.</li>\n<li>ALARME ANTIVOL.</li>\n<li>ANTI-DÉMARRAGE ÉLECTRONIQUE.</li>\n<li>FIXATIONS ISOFIX.</li>\n<li>MOTORISATION.</li>\n<li>NOMBRE DE CYLINDRES\t4.</li>\n<li>ENERGIE\tEssence.</li>\n<li>LONGUEUR\t3660 mm.</li>\n<li>LARGEUR\t1600 mm.</li>\n<li>HAUTEUR\t1520 mm.</li>\n<li>CONSOMMATION URBAINE\t5.9 L/100 km.</li>\n<li>EQUIPEMENTS INTÉRIEURS.</li>\n<li>AUTORADIO\tCommandes au volant.</li>\n<li>CONNECTIVITÉ\tBluetooth.</li>\n<li>ECRAN\tTactile.</li>\n<li>EQUIPEMENTS FONCTIONNELS.</li>\n<li>BOUTON START & STOP\tDémarrage mains libres.</li>\n<li>CLIMATISATION\tManuelle.</li>\n<li>DIRECTION ASSISTÉE\tÉlectrique.</li>\n<li>FERMETURE CENTRALISÉE\tÀ distance.</li>\n<li>ORDINATEUR DE BORD\t.</li>\n<li>RÉTROVISEURS EXTÉRIEURS\tÉlectriques | Rabattables | Avec clignotants intégrés.</li>\n<li>VITRES ÉLECTRIQUES\tAvant/Arrière.</li>\n<li>VOLANT RÉGLABLE\tEn hauteur.</li>\n</ul>",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": "",
+                "dors": 4,
+                "seats": 5,
+                "smallBag": "",
+                "gearbox": "A"
+            },
+            "images": [
+                "/photos/car/638/Toyota Agya.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|638||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 731.75,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "HONDA CITY BVA",
+            "externalCode": "HONDA|CITY EX CVT BOITE AUTOMATIQUE",
+            "modelId": 639,
+            "availability": 0,
+            "category": {
+                "code": "CO",
+                "name": "Confort City"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>CARACTÉRISTIQUES.</li>\n<li>NOMBRE DE PLACES\t5.</li>\n<li>TRANSMISSION.</li>\n<li>BOÎTE\tAutomatique.</li>\n<li>PERFORMANCES.</li>\n<li>VITESSE MAXI\t196 KM/H.</li>\n<li>MOTORISATION.</li>\n<li>NOMBRE DE CYLINDRES\t4.</li>\n<li>DIMENSIONS.</li>\n<li>VOLUME DU COFFRE\t519 L.</li>\n<li>CONSOMMATION.</li>\n<li>CONSOMMATION URBAINE\t7 L/100 km.</li>\n<li>CONSOMMATION EXTRA-URBAINE\t4.8 L/100 km.</li>\n<li>CONSOMMATION MIXTE\t5.4 L/100 km.</li>\n</ul>",
+                "ac": "",
+                "fuel": "E",
+                "largeBag": "",
+                "dors": 4,
+                "seats": 5,
+                "smallBag": "",
+                "gearbox": "A"
+            },
+            "images": [
+                "/photos/car/639/honda-city.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|639||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 986,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "Nouvelle voiture modèle 2021",
+            "minAge": 25
+        },
+        {
+            "name": "FIAT TIPO",
+            "externalCode": "FIAT|TIPO COUPE",
+            "modelId": 674,
+            "availability": 1,
+            "category": {
+                "code": "CO",
+                "name": "Confort City"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>BOÎTE\tManuelle\n<li>NOMBRE DE RAPPORTS\t5\n<li>EQUIPEMENTS DE SÉCURITÉ\n<li>ABS\t\n<li>AIRBAGS\tFrontaux | Latéraux\n<li>ANTI-PATINAGE\tESP\n<li>CONTRÔLE DE PRESSION DES PNEUS\t\n<li> NOMBRE DE CYLINDRES\t3\n<li> ENERGIE\tEssence\n<li> COUPLE\t140 nm 2250 tr/min\n<li> CYLINDRÉE\t898 CM³\n<li> LONGUEUR\t4063 mm\n<li> LARGEUR\t1732 mm\n<li> HAUTEUR\t1448 mm\n<li> VOLUME DU COFFRE\t300 L\n<li> PERFORMANCES\t\n<li> 0-100 KM/H\t12.2 s\n<li> VITESSE MAXI\t182 KM/H\n<li> CONSOMMATION URBAINE\t6.9 L/100 km\n<li> EQUIPEMENTS INTÉRIEURS\t\n<li> CONNECTIVITÉ\t2 USB\nBluetooth\nR&GO\n<li>EQUIPEMENTS FONCTIONNELS\n<li> CLIMATISATION\tManuelle\n<li>FERMETURE CENTRALISÉE\tÀ distance\n<li>ORDINATEUR DE BORD\n</ul>",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": "",
+                "dors": 4,
+                "seats": 5,
+                "smallBag": "",
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/674/fiat-tipo1.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|674||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 986,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "",
+            "minAge": 25
+        },
+        {
+            "name": "FIAT CROSS",
+            "externalCode": "FIAT|PANDA CITY CROSS 2",
+            "modelId": 675,
+            "availability": 1,
+            "category": {
+                "code": "MI",
+                "name": "Mini City"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>BOÎTE\tManuelle\n<li>NOMBRE DE RAPPORTS\t5\n<li>EQUIPEMENTS DE SÉCURITÉ\n<li>ABS\t\n<li>AIRBAGS\tFrontaux | Latéraux\n<li>ANTI-PATINAGE\tESP\n<li>CONTRÔLE DE PRESSION DES PNEUS\t\n<li> NOMBRE DE CYLINDRES\t3\n<li> ENERGIE\tEssence\n<li> COUPLE\t140 nm 2250 tr/min\n<li> CYLINDRÉE\t898 CM³\n<li> LONGUEUR\t4063 mm\n<li> LARGEUR\t1732 mm\n<li> HAUTEUR\t1448 mm\n<li> VOLUME DU COFFRE\t300 L\n<li> PERFORMANCES\t\n<li> 0-100 KM/H\t12.2 s\n<li> VITESSE MAXI\t182 KM/H\n<li> CONSOMMATION URBAINE\t6.9 L/100 km\n<li> EQUIPEMENTS INTÉRIEURS\t\n<li> CONNECTIVITÉ\t2 USB\nBluetooth\nR&GO\n<li>EQUIPEMENTS FONCTIONNELS\n<li> CLIMATISATION\tManuelle\n<li>FERMETURE CENTRALISÉE\tÀ distance\n<li>ORDINATEUR DE BORD\n</ul>",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": 1,
+                "dors": 4,
+                "seats": 5,
+                "smallBag": 2,
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/675/panda-cross.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|675||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 786.75,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "",
+            "minAge": 25
+        },
+        {
+            "name": "FIAT 500",
+            "externalCode": "FIAT|500",
+            "modelId": 676,
+            "availability": 1,
+            "category": {
+                "code": "MI",
+                "name": "Mini City"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>BOÎTE\tManuelle\n<li>NOMBRE DE RAPPORTS\t5\n<li>EQUIPEMENTS DE SÉCURITÉ\n<li>ABS\t\n<li>AIRBAGS\tFrontaux | Latéraux\n<li>ANTI-PATINAGE\tESP\n<li>CONTRÔLE DE PRESSION DES PNEUS\t\n<li> NOMBRE DE CYLINDRES\t3\n<li> ENERGIE\tEssence\n<li> COUPLE\t140 nm 2250 tr/min\n<li> CYLINDRÉE\t898 CM³\n<li> LONGUEUR\t4063 mm\n<li> LARGEUR\t1732 mm\n<li> HAUTEUR\t1448 mm\n<li> VOLUME DU COFFRE\t300 L\n<li> PERFORMANCES\t\n<li> 0-100 KM/H\t12.2 s\n<li> VITESSE MAXI\t182 KM/H\n<li> CONSOMMATION URBAINE\t6.9 L/100 km\n<li> EQUIPEMENTS INTÉRIEURS\t\n<li> CONNECTIVITÉ\t2 USB\nBluetooth\nR&GO\n<li>EQUIPEMENTS FONCTIONNELS\n<li> CLIMATISATION\tManuelle\n<li>FERMETURE CENTRALISÉE\tÀ distance\n<li>ORDINATEUR DE BORD\n</ul>",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": 1,
+                "dors": 2,
+                "seats": 5,
+                "smallBag": 2,
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/676/fiat-500.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|676||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 986,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "",
+            "minAge": 25
+        },
+        {
+            "name": "FIAT FIORINO MULTIJET",
+            "externalCode": "FIAT|FIRORINO MULTIJET",
+            "modelId": 677,
+            "availability": 0,
+            "category": {
+                "code": "VO",
+                "name": "Voiture utilitaire"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>BOÎTE\tManuelle\n<li>NOMBRE DE RAPPORTS\t5\n<li>EQUIPEMENTS DE SÉCURITÉ\n<li>ABS\t\n<li>AIRBAGS\tFrontaux | Latéraux\n<li>ANTI-PATINAGE\tESP\n<li>CONTRÔLE DE PRESSION DES PNEUS\t\n<li> NOMBRE DE CYLINDRES\t3\n<li> ENERGIE\tEssence\n<li> COUPLE\t140 nm 2250 tr/min\n<li> CYLINDRÉE\t898 CM³\n<li> LONGUEUR\t4063 mm\n<li> LARGEUR\t1732 mm\n<li> HAUTEUR\t1448 mm\n<li> VOLUME DU COFFRE\t300 L\n<li> PERFORMANCES\t\n<li> 0-100 KM/H\t12.2 s\n<li> VITESSE MAXI\t182 KM/H\n<li> CONSOMMATION URBAINE\t6.9 L/100 km\n<li> EQUIPEMENTS INTÉRIEURS\t\n<li> CONNECTIVITÉ\t2 USB\nBluetooth\nR&GO\n<li>EQUIPEMENTS FONCTIONNELS\n<li> CLIMATISATION\tManuelle\n<li>FERMETURE CENTRALISÉE\tÀ distance\n<li>ORDINATEUR DE BORD\n</ul>",
+                "ac": "",
+                "fuel": "",
+                "largeBag": "",
+                "dors": "",
+                "seats": "",
+                "smallBag": "",
+                "gearbox": ""
+            },
+            "images": [],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|677||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 889,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "",
+            "minAge": 25
+        },
+        {
+            "name": "Fiat 500 BVA",
+            "externalCode": "FIAT|500 BOITE AUTOMATIQUE",
+            "modelId": 678,
+            "availability": 1,
+            "category": {
+                "code": "ME",
+                "name": "Medium City"
+            },
+            "equipment": {
+                "more": "<ul>\n<li>BOÎTE\tAUTO\n<li>NOMBRE DE RAPPORTS\t5\n<li>EQUIPEMENTS DE SÉCURITÉ\n<li>ABS\t\n<li>AIRBAGS\tFrontaux | Latéraux\n<li>ANTI-PATINAGE\tESP\n<li>CONTRÔLE DE PRESSION DES PNEUS\t\n<li> NOMBRE DE CYLINDRES\t3\n<li> ENERGIE\tEssence\n<li> COUPLE\t140 nm 2250 tr/min\n<li> CYLINDRÉE\t898 CM³\n<li> LONGUEUR\t4063 mm\n<li> LARGEUR\t1732 mm\n<li> HAUTEUR\t1448 mm\n<li> VOLUME DU COFFRE\t300 L\n<li> PERFORMANCES\t\n<li> 0-100 KM/H\t12.2 s\n<li> VITESSE MAXI\t182 KM/H\n<li> CONSOMMATION URBAINE\t6.9 L/100 km\n<li> EQUIPEMENTS INTÉRIEURS\t\n<li> CONNECTIVITÉ\t2 USB\nBluetooth\nR&GO\n<li>EQUIPEMENTS FONCTIONNELS\n<li> CLIMATISATION\tManuelle\n<li>FERMETURE CENTRALISÉE\tÀ distance\n<li>ORDINATEUR DE BORD\n</ul>",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": 1,
+                "dors": 2,
+                "seats": 5,
+                "smallBag": 2,
+                "gearbox": "A"
+            },
+            "images": [
+                "/photos/car/678/fiat-500.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|678||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 986,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "",
+            "minAge": 25
+        },
+        {
+            "name": "SUZUKI CELERIO BVA",
+            "externalCode": "SUZUKI|CELERIO BOITE AUTOMATIQUE",
+            "modelId": 682,
+            "availability": 1,
+            "category": {
+                "code": "MI",
+                "name": "Mini City"
+            },
+            "equipment": {
+                "more": "<ul>\n<li> Âge minimum 25 ans. </li>\n<li> Permis de conduire depuis plus de 2 ans. </li>\n</ul>\n",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": 1,
+                "dors": 4,
+                "seats": 5,
+                "smallBag": 2,
+                "gearbox": "A"
+            },
+            "images": [
+                "/photos/car/682/celerio.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|682||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 889,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "",
+            "minAge": 25
+        },
+        {
+            "name": "SUZUKI SPRESSO",
+            "externalCode": "SUZUKI|SPRESSO",
+            "modelId": 684,
+            "availability": 0,
+            "category": {
+                "code": "EC",
+                "name": "Economique"
+            },
+            "equipment": {
+                "more": "<ul>\n<li> Âge minimum 25 ans. </li>\n<li> Permis de conduire depuis plus de 2 ans. </li>\n</ul>\n",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": "",
+                "dors": 4,
+                "seats": 5,
+                "smallBag": "",
+                "gearbox": "M"
+            },
+            "images": [
+                "/photos/car/684/suzuki-s-presso.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|684||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 689.75,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "",
+            "minAge": 25
+        },
+        {
+            "name": "BYD F3",
+            "externalCode": "BYD|BYD F3",
+            "modelId": 685,
+            "availability": 0,
+            "category": {
+                "code": "CI",
+                "name": "Citadine"
+            },
+            "equipment": {
+                "more": "",
+                "ac": 1,
+                "fuel": "E",
+                "largeBag": "",
+                "dors": 4,
+                "seats": 5,
+                "smallBag": "",
+                "gearbox": ""
+            },
+            "images": [
+                "/photos/car/685/BYD-f3.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|685||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 889,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "",
+            "minAge": 25
+        },
+        {
+            "name": "RENAULT CLIO 5",
+            "externalCode": "RENAULT CLIO 5",
+            "modelId": 688,
+            "availability": 0,
+            "category": {
+                "code": "ME",
+                "name": "Medium City"
+            },
+            "equipment": {
+                "more": "",
+                "ac": "",
+                "fuel": "E",
+                "largeBag": "",
+                "dors": 4,
+                "seats": 5,
+                "smallBag": "",
+                "gearbox": ""
+            },
+            "images": [
+                "/photos/car/688/renault-clio5.png"
+            ],
+            "rateKey": "416|416|20230208|20230218|10:30|14:30|688||34",
+            "totalWithoutDiscount": "",
+            "totalAmount": 889,
+            "currency": "TND",
+            "offers": [
+                {
+                    "code": "BB",
+                    "name": "Siège bébé offert"
+                },
+                {
+                    "code": "CAN",
+                    "name": "Annulation gratuite"
+                }
+            ],
+            "priceIncluded": [
+                {
+                    "code": "KM",
+                    "description": "",
+                    "name": "Kilométrage Illimité"
+                },
+                {
+                    "code": "LV",
+                    "description": "",
+                    "name": "Livraison gratuite à l'aéroport"
+                },
+                {
+                    "code": "ESS",
+                    "description": "",
+                    "name": "1/4 carburant gratuit"
+                }
+            ],
+            "terms": [
+                "Age minimum 25 ans",
+                " Permis de conduire de plus de 2 ans",
+                " Caution non encaissable de 600 euros"
+            ],
+            "cancellationPolicies": [
+                {
+                    "fromDate": "2020-05-18T23:59",
+                    "amount": 0,
+                    "description": "L'annulation est Gratuite"
+                }
+            ],
+            "marketingText": "",
+            "minAge": 25
+        }
+    ]
+}
