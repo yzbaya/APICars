@@ -1,95 +1,97 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 /* eslint-disable react-hooks/rules-of-hooks */
 import React,{useState,useEffect} from 'react'
-import axios from 'axios'
-import { styled } from '@mui/material/styles';
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell, { tableCellClasses } from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
+//  
 
 function DataFetching () {
- 
-     const [data, setData] = useState([]);
+ const [data, setData] = useState([]);
     //  const[post, setPost]= useState({})
      const [id,setId]=useState([])
     
-     const [idFormButtonClick,setIdFormButtonClick]=useState()
-       const handleClick =()=>{
-        setIdFormButtonClick(id)
-       }
+     const [idFormButtonClick,setIdFormButtonClick]=useState()  ;
+      function postForm(){
+        //axios.get(`https://jsonplaceholder.typicode.com/posts/${idFormButtonClick}`)
+        const url="https://jsonplaceholder.typicode.com"
+        const [data, setData]=useState({
+          name:"",
+          date:"",
+          iduser:""
+        });
+        function submit(e){
+             e.preventDefault();
+             axios.post(url,{
+              name:data.name,
+              date:data.date,
+              iduser:date.iduser
+             })
+             .then(res=>{
+              console.log(res.data)
+             })
+        }
+        function handle(e){
+          const newdata = data
+          newdata[e.target.id] = e.target.value
+          setData(newdata) 
+          console.log(newdata)
+        }
+      }
+     return (
+    <div>
+      <form onSubmit={(e)=>submit(e)}>
+        <input onChange={(e)=> handle(e)} id="name" type="text" name="" value={data.name}></input>
+        <input onChange={(e)=> handle(e)} id="date" type="text" name="" value={data.date}></input>
+        <input onChange={(e)=> handle(e)} id="iduser" type="text" name="" value={data.iduser}></input>
+        <button>Submit</button>
+      </form>
+    </div>
+     );
+  
+}
+ 
+export default DataFetching;    
+      //  const handleClick =()=>{
+      //   setIdFormButtonClick(id)
+      //  }
       //theme of table
-    const StyledTableCell = styled(TableCell)(({ theme }) => ({
-      [`&.${tableCellClasses.head}`]: {
-        backgroundColor: theme.palette.common.black,
-        color: theme.palette.common.white,
-     },
+    // const StyledTableCell = styled(TableCell)(({ theme }) => ({
+    //   [`&.${tableCellClasses.head}`]: {
+    //     backgroundColor: theme.palette.common.black,
+    //     color: theme.palette.common.white,
+    //  },
 
-     [`&.${tableCellClasses.body}`]: {
-       fontSize: 14,
-     },
-    }));
+    //  [`&.${tableCellClasses.body}`]: {
+    //    fontSize: 14,
+    //  },
+    // }));
  //theme of row
-const StyledTableRow = styled(TableRow)(({ theme }) => ({
-  '&:nth-of-type(odd)': {
-    backgroundColor: theme.palette.action.hover,
-  },
+// const StyledTableRow = styled(TableRow)(({ theme }) => ({
+//   '&:nth-of-type(odd)': {
+//     backgroundColor: theme.palette.action.hover,
+//   },
   // hide last border
-  '&:last-child td, &:last-child th': {
-    border: 1,
-  },
-}));
-     useEffect (()=>{
+//   '&:last-child td, &:last-child th': {
+//     border: 1,
+//   },
+// }));
+//      useEffect (()=>{
       // axios.delete(`https://jsonplaceholder.typicode.com/posts/${id}`)
      //axios.post(`https://jsonplaceholder.typicode.com/posts/`,{title:'hi',body:'hello'})
       // axios.get(`https://jsonplaceholder.typicode.com/posts/${idFormButtonClick}`)
-      axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`) 
-         .then(res=>{
-          console.log(res.data)
-             setData(res.data)
+    //   axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`) 
+    //      .then(res=>{
+    //       console.log(res.data)
+    //          setData(res.data)
             
-         })
+    //      })
 
-       .catch(err => {
-        console.log(err)
-      })
-     },)
+    //    .catch(err => {
+    //     console.log(err)
+    //   })
+    //  },)
     
-  return (
-    <div>
- {/* <div> */}
- {/* <input  type="text"  value={id} onChange={e=>setId(e.target.value)}/>
-      <button type="button" onClick={handleClick} style={{color:"red"}}>Fetch post</button> */}    
-{/* </div> */}
-      <div>
-       <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 700 }} aria-label="customized table">
 
-        <TableHead>
-            <TableRow>
-               <StyledTableCell>Id </StyledTableCell>
-               <StyledTableCell align="center">Title</StyledTableCell>
-               <StyledTableCell align="center">Body</StyledTableCell>
-            </TableRow>
-        </TableHead>
 
-        <TableBody>
-            {data.map((post) => (
-                <StyledTableRow key={post.id}>
-                   <StyledTableCell component="th" scope="row">{post.id}</StyledTableCell>  
-                   <StyledTableCell align="left">{post.title}</StyledTableCell>
-                   <StyledTableCell align="left">{post.body}</StyledTableCell>
-                </StyledTableRow>
-          ))}
-        </TableBody> 
-
-      </Table>
-    </TableContainer>
-    </div>      
-    </div>
     
    //tableau normale
     // <div>
@@ -114,9 +116,9 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 // </div>
           
     
-  )
-}
-export default DataFetching;
+//   );
+// }
+// export default DataFetching;
 
           //   <input  type="text"  value={id} onChange={e=>setId(e.target.value)}/>
           //  <button type="button" onClick={handleClick} style={{color:"red"}}>Fetch post</button>
@@ -127,4 +129,34 @@ export default DataFetching;
           //    {post.map(post=>( 
           //      <li key={post.id}>{post.title}</li>
           //    ))}
-          // </ul>   */}
+          // </ul>   */}    <div>
+ {/* <div> */}
+ {/* <input  type="text"  value={id} onChange={e=>setId(e.target.value)}/>
+      <button type="button" onClick={handleClick} style={{color:"red"}}>Fetch post</button> */}    
+{/* </div> */}
+    //   <div>
+    //    <TableContainer component={Paper}>
+    //   <Table sx={{ minWidth: 700 }} aria-label="customized table">
+
+    //     <TableHead>
+    //         <TableRow>
+    //            <StyledTableCell>Id </StyledTableCell>
+    //            <StyledTableCell align="center">Title</StyledTableCell>
+    //            <StyledTableCell align="center">Body</StyledTableCell>
+    //         </TableRow>
+    //     </TableHead>
+
+    //     <TableBody>
+    //         {data.map((post) => (
+    //             <StyledTableRow key={post.id}>
+    //                <StyledTableCell component="th" scope="row">{post.id}</StyledTableCell>  
+    //                <StyledTableCell align="left">{post.title}</StyledTableCell>
+    //                <StyledTableCell align="left">{post.body}</StyledTableCell>
+    //             </StyledTableRow>
+    //       ))}
+    //     </TableBody> 
+
+    //   </Table>
+    // </TableContainer>
+    // </div>      
+    // </div>

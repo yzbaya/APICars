@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import * as React from 'react';
+import React, { useState, useEffect } from "react";
 import TextField from '@mui/material/TextField';
 import Stack from '@mui/material/Stack';
 import Autocomplete from '@mui/material/Autocomplete';
@@ -10,37 +10,54 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { TimePicker } from '@mui/x-date-pickers/TimePicker';
 import {FaCalendarAlt} from 'react-icons/fa';
 import { Button } from '@mui/material';
+import axios from "axios";
 
  function Home() {
+  const [data, setData] = useState([]);
+
  useEffect (()=>{
 
-axios.get('https://rapidapi.com/dominonet-lTpEE6zONeS/api/vin-decoder19/details').then(function (res) {
-	console.log(res.data);
-}).catch(function (error) {
-	console.error(error);
-    })
-  //  const res = require("../cars.json");
-  //   let data = res.cars;
-  //   console.log(data);
-  //   setData(data);
+// axios.get('https://rapidapi.com/dominonet-lTpEE6zONeS/api/vin-decoder19/details').then(function (res) {
+// 	console.log(res.data);
+// }).catch(function (error) {
+// 	console.error(error);
+//     })
+   const res = require("../../cars.json");
+    let data = res.cars;
+    console.log(data);
+    setData(data);
 
-    // })
+    },
+    []
+    );
 
-    .catch((err) => {
-      console.log(err);
-    });
-  }
-,
-[]
-  );
+    // .catch((err) => {
+    //   console.log(err);
+    // });
+  // }
+// ,
+// []
+//   );
     const [value, setValue] = React.useState(null);
-    const handleSearch = async (e) =>{
+    function submit(e){
+       e.preventDefault();
+        const res = require("../../cars.json");
+    let data = res.cars;
+    console.log(data);
+    setData(data);
 
     }
+function handle(e){
+      const newdata={...data}
+      newdata[e.target.id]=e.target.value
+      setData(newdata)
+      console.log(newdata)
+};
+
   return (
    
-
-<section>
+   
+<form onSubmit={(e)=>submit(e)}>
 
         <div className='links'>
         <ul>
@@ -64,6 +81,8 @@ axios.get('https://rapidapi.com/dominonet-lTpEE6zONeS/api/vin-decoder19/details'
         freeSolo
         options={top100Films.map((option) => option.title)}
         renderInput={(params) => <TextField {...params}  />}
+        onChange={(e) => handle(e)}
+        value={data.FaMapMarkedAlt}
       />
     </Stack> 
   </div>
@@ -126,13 +145,15 @@ axios.get('https://rapidapi.com/dominonet-lTpEE6zONeS/api/vin-decoder19/details'
     renderInput={(params) => <TextField {...params} />}
   />
 </LocalizationProvider>
-</div>        
+</div>   
+<button></button>     
       </div>
-    </section>      
+    </form>      
    
  
   );
 }
+
 
 export default Home;
 

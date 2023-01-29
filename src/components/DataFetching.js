@@ -10,7 +10,6 @@ import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import Home from './home/Home';
-// import Button from '@mui/material/Button';import Button from 'react-bootstrap/Button';
 import Box from '@mui/material/Box';
 //  import {fa-car } from "@fortawesome/free-solid-svg-icons";
 function DataFetching(){
@@ -35,6 +34,8 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: 'center',
   color: theme.palette.text.secondary,
 }));
+
+
 const style = {
   position: 'absolute',
   top: '50%',

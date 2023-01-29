@@ -10,12 +10,10 @@ function App() {
   return (
     <>  
    <div className="App">
-       
-      <Home/>
-     
+        <Navbar /> 
+       <Home/> 
      <DataFetching/>
-     <Navbar />
-     <Footer/>
+    <Footer/> 
     </div>
     </>
 
