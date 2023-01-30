@@ -10,53 +10,31 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { TimePicker } from '@mui/x-date-pickers/TimePicker';
 import {FaCalendarAlt} from 'react-icons/fa';
 import { Button } from '@mui/material';
-import axios from "axios";
+//import axios from "axios";
 
- function Home() {
+ const Home =()=> {
   const [data, setData] = useState([]);
 
  useEffect (()=>{
-
-// axios.get('https://rapidapi.com/dominonet-lTpEE6zONeS/api/vin-decoder19/details').then(function (res) {
-// 	console.log(res.data);
-// }).catch(function (error) {
-// 	console.error(error);
-//     })
    const res = require("../../cars.json");
     let data = res.cars;
     console.log(data);
     setData(data);
 
-    },
+  },
     []
     );
 
-    // .catch((err) => {
-    //   console.log(err);
-    // });
-  // }
-// ,
-// []
-//   );
     const [value, setValue] = React.useState(null);
-    function submit(e){
-       e.preventDefault();
-        const res = require("../../cars.json");
-    let data = res.cars;
-    console.log(data);
-    setData(data);
+     function submit(){
+            console.log('ytfjyhg')
+       };
 
-    }
-function handle(e){
-      const newdata={...data}
-      newdata[e.target.id]=e.target.value
-      setData(newdata)
-      console.log(newdata)
-};
+
 
   return (
    
-   
+  
 <form onSubmit={(e)=>submit(e)}>
 
         <div className='links'>
@@ -77,12 +55,8 @@ function handle(e){
     <FaMapMarkedAlt/>Lieu de prise en charge
        <Stack spacing={2} sx={{ width: 300 }}>
       <Autocomplete
-        id="free-solo-demo"
-        freeSolo
-        options={top100Films.map((option) => option.title)}
-        renderInput={(params) => <TextField {...params}  />}
-        onChange={(e) => handle(e)}
-        value={data.FaMapMarkedAlt}
+        options={pays.map((option) => option.name)}
+        renderInput={(params) => <TextField {...params}  />}  
       />
     </Stack> 
   </div>
@@ -96,25 +70,24 @@ function handle(e){
   <Stack spacing={2} sx={{ width: 300 }}>
  <LocalizationProvider dateAdapter={AdapterDayjs}>
   <DatePicker
-    label="Basic example"
     value={value}
-    onChange={(newValue1) => {
-      setValue(newValue1);
+    onChange={(e) => {
+      setValue(e);
     }}
     renderInput={(params) => <TextField {...params} />}
   />
  </LocalizationProvider>
  </Stack>
-    <LocalizationProvider dateAdapter={AdapterDayjs}  >
+       <LocalizationProvider dateAdapter={AdapterDayjs}  >
      <TimePicker
-        label="Basic example"
+        label="Time"
         value={value}
         onChange={(newValue) => {
       setValue(newValue);
     }}
     renderInput={(params) => <TextField {...params} />}
   />
-  </LocalizationProvider>
+</LocalizationProvider>
  </div>
 
 
@@ -125,8 +98,7 @@ function handle(e){
   <FaCalendarAlt/>Date et heure de restitution
   <Stack spacing={2} sx={{ width: 300 }}>
  <LocalizationProvider dateAdapter={AdapterDayjs}>
-  <DatePicker
-    label="Basic example"
+  <DatePicker  
     value={value}
     onChange={(newValue) => {
       setValue(newValue);
@@ -137,7 +109,7 @@ function handle(e){
  </Stack>
         <LocalizationProvider dateAdapter={AdapterDayjs}  >
      <TimePicker
-        label="Basic example"
+        label="Time"
         value={value}
         onChange={(newValue) => {
       setValue(newValue);
@@ -146,9 +118,10 @@ function handle(e){
   />
 </LocalizationProvider>
 </div>   
-<button></button>     
+  <Button class="btn-btn1" >Devis et réservation </Button>    
       </div>
     </form>      
+ 
    
  
   );
@@ -158,11 +131,21 @@ function handle(e){
 export default Home;
 
 
-const top100Films = [
-  { title: 'The Shawshank Redemption', year: 1994 },
-  { title: 'The Godfather', year: 1972 },
-  { title: 'The Godfather: Part II', year: 1974 },
-  { title: 'The Dark Knight', year: 2008 },
-  { title: '12 Angry Men', year: 1957 },
-  { title: "Schindler's List", year: 1993 },
-  { title: 'Pulp Fiction', year: 1994 }]
+const pays = [
+  { name:'Tunis : Aéroport Tunis-Carthage'},
+  { name: 'The Tunis : Port la Goulette' },
+  { name: 'Tunis ville' },
+  { name: 'Bizerte ville' },
+  { name: 'Nabeul ville'},
+  { name: "Hammamet ville" },
+  { name: 'Tabarka : Aéroport Tabarka'},
+  { name: 'Enfidha: Aéroport Enfidha'},
+  { name: 'Sousse ville'},
+  { name: 'Monastir : Aéroport Habib Bourguiba'},
+  { name: 'Mahdia ville'},
+  { name: 'Sfax : Aéroport de Sfax-Thyna'},
+  { name: 'Sfax ville'},
+  { name: 'Gafsa ville'},
+  { name: 'Djerba : Aéroport Djerba Mellita'},
+  { name: 'Tozeur : Aéroport Tozeur Nefta'}
+]

@@ -12,7 +12,7 @@ import Typography from '@mui/material/Typography';
 //import Home from './home/Home';
 import Box from '@mui/material/Box';
 //  import {fa-car } from "@fortawesome/free-solid-svg-icons";
-function DataFetching(){
+const DataFetching =()=>{
  
   <div>
      {/* input */}
