@@ -33,15 +33,17 @@ import { Button } from '@mui/material';
 
 
   return (
-   
+
   
 <form onSubmit={(e)=>submit(e)}>
-
+     {/* <div><section className="hero-in"/></div>  */}
+    
+ 
         <div className='links'>
         <ul>
-         <Button><li>location</li></Button> 
-         <Button><li>transferts</li></Button> 
-          <Button><li>location avec chauffeur</li></Button>
+         {/* <Button><li>location</li></Button>  */}
+         {/* <Button><li>transferts</li></Button>  */}
+          {/* <Button><li>location avec chauffeur</li></Button> */}
         </ul>
       </div>
       <div className="division">
@@ -78,16 +80,16 @@ import { Button } from '@mui/material';
   />
  </LocalizationProvider>
  </Stack>
-       <LocalizationProvider dateAdapter={AdapterDayjs}  >
+    <LocalizationProvider dateAdapter={AdapterDayjs}  >
      <TimePicker
         label="Time"
         value={value}
-        onChange={(newValue) => {
+        onChange={(e) => {
       setValue(newValue);
     }}
     renderInput={(params) => <TextField {...params} />}
   />
-</LocalizationProvider>
+  </LocalizationProvider>
  </div>
 
 
