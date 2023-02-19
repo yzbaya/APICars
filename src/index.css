@@ -1,8 +1,8 @@
 .box-spacing {
     margin-bottom: 30px;
-    margin-top: 30px;
     font-size: 100px;
 }
+
 .box:hover{
  border: solid #ffb007;
 }
@@ -63,29 +63,17 @@
 Typography span{
     color: #ffb007;
 }
-h4 span {
-    color: #ffb007;
-}
+
 .apropos{
     color:#e9e6e6;
      text-align: center;
 }
 
-.apropos1{
-    color: #e9e6e6;
-    text-align: right;
-}
+
 .position{
     text-align: center;
 }
 
-.containerF{
-    background-color:rgb(167, 161, 161);
-}
-
-.row.py-5{
-    margin: 15px;
-}
 
 
 .image{
@@ -93,40 +81,8 @@ h4 span {
   Width: 200px;
 height: auto;
 }
-.nav {
-    margin-top: 0px;
-    background-color: white;
-    color: rgb(0, 0, 0);
-    display: flex;
-    font-size: 0.9rem;
-    width: 100%;
-    position: fixed;
-    
-}
 
 
-
-.nav ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 5rem;
-    position: center;
-}
-
-.nav a {
-    color: #000;
-    font-family: 'Barlow', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    padding: 0 15px;
-    text-transform: uppercase;
-        text-decoration: none;
-    background-color: transparent;
-    
-    
-}
 
 .Re {
    
@@ -136,27 +92,11 @@ height: auto;
 
 }
 
-.division{
-    
-     background-color: rgb(253, 174, 56); 
-    z-index: 99999;
-    overflow-x: hidden;
-    height: auto;
-    font-size: 12px;
-    font-weight: 700;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 35px;  
-    border-color: transparent;
-}
 
-.division.place{
+/* .division.place{
     padding: 0 0.8rem;
     padding-left: 1rem;
-}
+} */
 .links{
         padding: 30px;
         font-size: 50;
@@ -179,6 +119,8 @@ height: auto;
             font-weight: 70;  
             padding: 8px 18px;
 }
+
+
  .control__btn1{
         padding: 0.25rem 0.5rem;
             font-size: 0.875rem;
@@ -482,11 +424,6 @@ height: auto;
             align-items: flex-end;
 }
 
-
-
-
-/* ".inherited-styles-for-exported-element" is a generated class for the inherited styles of the exported element, feel free to rename it. */
-
 .inherited-styles-for-exported-element {
   color: #333;
   font-family: CerebriSans-Regular, -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
@@ -692,8 +629,4 @@ svg:not(:root).svg-inline--fa {
   transform: none;
 }
 
-
-/* navbar */
-
-/* ".inherited-styles-for-exported-element" is a generated class for the inherited styles of the exported element, feel free to rename it. */
 

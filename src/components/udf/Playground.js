@@ -2,7 +2,7 @@ import * as React from "react";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import Stack from "@mui/material/Stack";
-
+import './Search/Search.css'
 const Playground = function Playground() {
   const defaultProps = {
     options: pays,
@@ -14,8 +14,10 @@ const Playground = function Playground() {
   const [value, setValue] = React.useState(null);
 
   return (
-    // <Stack spacing={1} sx={{ width: 300 }}>
-    <Autocomplete
+  
+    <div className="Lieu"> 
+    
+     <Autocomplete
       {...defaultProps}
       id="controlled-demo"
       value={value}
@@ -31,7 +33,10 @@ const Playground = function Playground() {
           variant="standard"
         />
       )}
-    />
+    />  
+    </div>
+    // <Stack spacing={1} sx={{ width: 300 }}>
+   
     // </Stack>
   );
 };

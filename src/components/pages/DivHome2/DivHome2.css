@@ -1,0 +1,72 @@
+.DivHome2{
+    margin-top: 20px;
+    border-radius: 700px;
+     margin-left:100px;
+    margin-left:100px;
+}
+
+.span{
+    color: #006FFF;
+
+}
+
+.para{
+   margin-left: 500px; 
+}
+
+.nbr_icon {
+    margin-left: -150px;
+    background: #fdae38;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: black;
+    padding: 5px;
+}
+
+.nbr_icon1{
+ 
+    margin-left: -150px;
+        background: #fdae38;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.4;
+        color: black;
+        padding: 5px;
+}
+
+
+.nbr_icon2{
+ 
+    margin-left: -150px;
+        background: #fdae38;
+        border-radius: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.4;
+        color: black;
+        padding: 5px;
+}
+
+.nbr_icon3 {
+
+    margin-left: -150px;
+    background: #fdae38;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: black;
+    padding: 5px;
+}
+
+
+/* .sc_icons_item.item_1:after {
+    content: url("https: //www.citygo.tn/dist/img/arrow22.png");
+    display: block;
+    position: absolute;
+    left: 150px;
+    top: 50px;
+} */

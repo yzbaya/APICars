@@ -10,6 +10,7 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { TimePicker } from '@mui/x-date-pickers/TimePicker';
 import {FaCalendarAlt} from 'react-icons/fa';
 import { Button } from '@mui/material';
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
 //import axios from "axios";
 
  const Home =()=> {
@@ -120,7 +121,10 @@ import { Button } from '@mui/material';
   />
 </LocalizationProvider>
 </div>   
-  <Button class="btn-btn1" >Devis et réservation </Button>    
+  <CustomLink to="/DataFetching">
+    <Button class="btn-btn1" >Devis et réservation </Button> 
+    </CustomLink>
+  
       </div>
     </form>      
  
@@ -132,6 +136,18 @@ import { Button } from '@mui/material';
 
 export default Home;
 
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+
+  return (
+    <li className={isActive ? "active" : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  )
+}
 
 const pays = [
   { name:'Tunis : Aéroport Tunis-Carthage'},

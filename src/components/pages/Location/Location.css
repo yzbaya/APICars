@@ -1,0 +1,50 @@
+ .boxing {
+    display: flex;
+    justify-content: space-between;
+     margin-left: 200px;
+     margin-right:200px;
+}
+
+ .boxing .box-photo .photo{
+    margin: 15px;
+    border-radius: 2px;
+    width: 350px;
+    margin-top: -310px;
+    
+}
+
+ .boxing .overlay{
+    color: white;
+    background-color: #0000004d;
+    width: 350px;
+    height: 299px;
+    position: relative;
+    margin-left: 15px;
+ }
+
+
+  .boxing .overlay .txt{
+    margin-top: 50px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1rem;  
+    padding-top: 150px; 
+  }
+
+
+
+ /* @media screen and (max-width: 800px) {
+  .box-photo::before {
+        width: 380px;
+        height: 280px;
+    }
+} 
+ */
+
+.paragraphe  {
+    margin-left: 450px;
+}
+
+.Exper{
+    color: #006FFF;
+}

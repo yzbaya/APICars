@@ -10,7 +10,7 @@ const steps = [
   'Terminé!',
 ];
 
-export default function stepper() {
+ function stepper() {
   return (
     <Box sx={{ width: '100%' }}>
       <Stepper activeStep={1} alternativeLabel>
@@ -23,3 +23,4 @@ export default function stepper() {
     </Box>
   );
 }
+export default stepper;
