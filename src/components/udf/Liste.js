@@ -80,8 +80,8 @@ const ListInfo2 = (props) => {
     </Grid>
   );
 };
-const ListPrice = (props) => {
 
+const ListPrice = (props, stepTwo) => {
   return (
     <Box component="ul" aria-labelledby="category-b" item xs={3} className="ul">
       <Grid item xs>
@@ -98,8 +98,20 @@ const ListPrice = (props) => {
         <Typography variant="subtitle1" component="div">
           {props.totalAmount}
         </Typography>
+        <Typography variant="subtitle1" component="div">
+          {props.currency}
+        </Typography>
       </Grid>
-      <button type="button" className="btn-btn">
+      <button
+        type="button"
+        className="btn-btn"
+        onClick={(e) => {
+          return stepTwo(e, {
+            currency: props.currency,
+            modelId: props.modelId,
+          });
+        }}
+      >
         Je réserve
       </button>
     </Box>

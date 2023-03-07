@@ -111,7 +111,7 @@ const style = {
 
                <Typography variant="body2" gutterBottom >
                 {post.category.name}
-                <span class="badge badge-warning"><b> sur commande</b></span>
+                <span className="badge badge-warning"><b> sur commande</b></span>
                </Typography>
               </Grid>
 
@@ -172,7 +172,7 @@ const style = {
         <Grid xs={5}> 
         
             <Typography variant="subtitle1" component="div" container>
-               <p class="text-warning"><b>Ce prix inclus</b></p>
+               <p className="text-warning"><b>Ce prix inclus</b></p>
 
          <div className="Img-phrase-container">
 
@@ -208,7 +208,7 @@ const style = {
             </Typography>
           
       </Grid> 
-          <button type="button" class="btn-btn">Je réserve</button>
+          <button type="button" className="btn-btn">Je réserve</button>
   </Box>
         </Grid>      
     </Paper>

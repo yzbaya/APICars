@@ -1,35 +1,39 @@
  .boxing {
-    display: flex;
-    justify-content: space-between;
+     display: flex;
+     justify-content: space-between;
      margin-left: 200px;
-     margin-right:200px;
-}
+     margin-right: 200px;
+ }
 
- .boxing .box-photo .photo{
-    margin: 15px;
-    border-radius: 2px;
-    width: 350px;
-    margin-top: -310px;
-    
-}
+ .container {
+     max-width: 1140px;
+ }
 
- .boxing .overlay{
-    color: white;
-    background-color: #0000004d;
-    width: 350px;
-    height: 299px;
-    position: relative;
-    margin-left: 15px;
+ .boxing .box-photo .photo {
+     margin: 15px;
+     border-radius: 2px;
+     width: 350px;
+     margin-top: -310px;
+
+ }
+
+ .boxing .overlay {
+     color: white;
+     background-color: #0000004d;
+     width: 350px;
+     height: 299px;
+     position: relative;
+     margin-left: 15px;
  }
 
 
-  .boxing .overlay .txt{
-    margin-top: 50px;
-    margin-left: 20px;
-    text-transform: uppercase;
-    letter-spacing: .1rem;  
-    padding-top: 150px; 
-  }
+ .boxing .overlay .txt {
+     margin-top: 50px;
+     margin-left: 20px;
+     text-transform: uppercase;
+     letter-spacing: .1rem;
+     padding-top: 150px;
+ }
 
 
 
@@ -41,10 +45,10 @@
 } 
  */
 
-.paragraphe  {
-    margin-left: 450px;
-}
+ .paragraphe {
+     margin-left: 450px;
+ }
 
-.Exper{
-    color: #006FFF;
-}
+ .Exper {
+     color: #006FFF;
+ }

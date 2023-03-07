@@ -1,38 +1,36 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import Switch from '@mui/material/Switch';
-import Slide from '@mui/material/Slide';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Input from './input'
-import MyForm from './inputs'
+import * as React from "react";
+import Box from "@mui/material/Box";
+import Switch from "@mui/material/Switch";
+import Slide from "@mui/material/Slide";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import Input from "./input";
+import MyForm from "./inputs";
+import Grid from "@mui/material/Grid";
+
 const icon = (
- 
-    <Box
-      sx={{
-        display: 'flex',
-        flexDirection: 'column',
-        '& .MuiTextField-root': { width: 150 },
-      }}
-    >
-       
-      <td >
-         <label for="">Compagnie aérienne</label>
-        <select>
-            <option value="">Tunisair</option>
-            <option value="">Tunisair Expert</option>
-            <option value="">Nouvelaire</option>
-            <option value="">Air France</option>
-            <option value="">Corsair</option>
-            <option value="">Lufthansa</option>
-        </select>
-      </td>
-      <td>
-        <label> N° de vol :</label>
-        <input type="" name="" value="" placeholder='Numéro de vol'></input>
-      </td>
-    </Box>
-    
- 
+  <Box
+    sx={{
+      display: "flex",
+      flexDirection: "column",
+      "& .MuiTextField-root": { width: 150 },
+    }}
+  >
+    <Grid>
+      <label htmlFor="">Compagnie aérienne</label>
+      <select>
+        <option value="">Tunisair</option>
+        <option value="">Tunisair Expert</option>
+        <option value="">Nouvelaire</option>
+        <option value="">Air France</option>
+        <option value="">Corsair</option>
+        <option value="">Lufthansa</option>
+      </select>
+    </Grid>
+    <Grid>
+      <label> N° de vol :</label>
+      <input type="" name="" value="" placeholder="Numéro de vol"></input>
+    </Grid>
+  </Box>
 );
 
 export default function DivVol() {
@@ -44,19 +42,14 @@ export default function DivVol() {
   };
 
   return (
-
-      <Box sx={{ width: 200 }}>
-        <FormControlLabel
-          control={<Switch checked={checked} onChange={handleChange} />}
-          label="Oui"
-        />
-        <Slide direction="up" in={checked} container={containerRef.current}>
-          {icon}
-        </Slide>
-
-        
-
-      </Box>
-
+    <Box sx={{ width: 200 }}>
+      <FormControlLabel
+        control={<Switch checked={checked} onChange={handleChange} />}
+        label="Oui"
+      />
+      <Slide direction="up" in={checked} container={containerRef.current}>
+        {icon}
+      </Slide>
+    </Box>
   );
 }

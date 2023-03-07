@@ -32,9 +32,9 @@ const Search = () => {
   const [locality, setlocality] = useState(null);
   // console.log("locality ==> ", locality);
   const [pickUpDate, setpickUpDate] = useState(null);
-  console.log("pickUpDate ==>", pickUpDate);
+  // console.log("pickUpDate ==>", pickUpDate);
   const [pickDownDate, setpickDownDate] = useState(null);
-  console.log("pickDownDate ==>", pickDownDate);
+  // console.log("pickDownDate ==>", pickDownDate);
   // const [password, setPassword] = useState();
   // const [email, setEmail] = useState("");
   // const [phone, setPhone] = useState();
@@ -52,7 +52,7 @@ const Search = () => {
       dropoffTime: moment(new Date(pickDownDate)).format("HH:mm"),
     };
     console.log("🚀 ~ file: Search.js:54 ~ search ~ searchQuery", searchQuery);
-    navigate("/steptwo", { state: searchQuery });
+    navigate("/search", { state: searchQuery });
     // postSearch(newUser);
     // dispatch(postSearch(newUser));
     // console.log(newUser);
@@ -63,9 +63,12 @@ const Search = () => {
     //   // setPhone("");
   };
   const Img = styled("img")({
-    marginTop: 90,
+    marginTop: 100,
     maxWidth: "100%",
-    maxHeight: "100%",
+    // maxHeight: "100%",
+    width: "100%",
+    // margin: "auto",
+    // display: "none",
   });
   // const [filteredList, setFilteredList] = new useState(pays);
   // const filterBySearch = (event) => {
@@ -81,56 +84,57 @@ const Search = () => {
   //   setFilteredList(updatedList);
   // };
   return (
-    <div className="divi">
-      <Typography className="image2">
-        <Img
-          alt="complex"
-          src={
-            "https://d1pnlk307kfyn2.cloudfront.net/photos/content/gallery/gallery7532/offreslide-min.webp"
-          }
-        />
-      </Typography>
-      <div>
-        <ul className="divTab">
-          <li className="nav-item">
-            <a
-              className="nav-link active text-md-left text-center text-dark docs-creator"
-              href="/"
-            >
-              {" "}
-              Location
-            </a>
-          </li>
-          <li className="nav-item">
-            <a
-              className="nav-link text-md-left text-center docs-creator"
-              href="/transfert/"
-            >
-              {" "}
-              Transferts{" "}
-            </a>
-          </li>
+    <div>
+      {/* <Typography className="image2"> */}
+      <Img
+        alt="complex"
+        src={
+          "https://d1pnlk307kfyn2.cloudfront.net/photos/content/gallery/gallery7532/slide-early-booking-lowq.jpg"
+        }
+      />
+      {/* </Typography> */}
+      <div className="divi">
+        <div className="z-moteur w-100" id="datepairsearch">
+          <div className="container">
+            <ul className="divTab">
+              <li className="nav-item">
+                <a
+                  className="nav-link active text-md-left text-center text-dark docs-creator"
+                  href="/"
+                >
+                  {" "}
+                  Location
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link text-md-left text-center docs-creator"
+                  href="/transfert/"
+                >
+                  {" "}
+                  Transferts{" "}
+                </a>
+              </li>
 
-          <li>
-            <a
-              className="nav-link text-md-left text-center docs-creator"
-              href="/location-voiture-avec-chauffeur/"
-            >
-              {" "}
-              Location avec chauffeur{" "}
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <Paper className="division">
-          <Grid container spacing={2}>
-            <Grid xs={12} className="titre">
-              <h2>Réservez votre location de voiture en Tunisie</h2>
-            </Grid>
+              <li>
+                <a
+                  className="nav-link text-md-left text-center docs-creator"
+                  href="/location-voiture-avec-chauffeur/"
+                >
+                  {" "}
+                  Location avec chauffeur{" "}
+                </a>
+              </li>
+            </ul>
+            <div>
+              <Paper className="division">
+                <Grid container spacing={2}>
+                  <Grid xs={12} className="titre">
+                    <h2>Réservez votre location de voiture en Tunisie</h2>
+                  </Grid>
 
-            <Grid xs={3}>{Playground(setlocality)}</Grid>
-            {/* <Grid xs={3}>
+                  <Grid xs={3}>{Playground(setlocality)}</Grid>
+                  {/* <Grid xs={3}>
               {" "}
               <div className="Lieu">
                 <Autocomplete
@@ -152,33 +156,40 @@ const Search = () => {
                 />
               </div>
             </Grid> */}
-            <Grid xs={4}>
-              {/* <label><CalendarMonthIcon/>Date et heure de prise en charge</label>  */}
-              {DatePicker("Date et heure de prise en charge", 1, setpickUpDate)}
-            </Grid>
-            <Grid xs={4}>
-              {/* <label><CalendarMonthIcon/>Date et heure de restitution</label>  */}
-              {DatePicker(
-                "Date et heure de restitution",
-                pickUpDate || 2,
-                setpickDownDate
-              )}
-            </Grid>
-            <Grid xs={1}>
-              <IconButton
-                aria-label="search"
-                className="search"
-                onClick={search}
-              >
-                <SearchIcon />
-              </IconButton>
-            </Grid>
+                  <Grid xs={4}>
+                    {/* <label><CalendarMonthIcon/>Date et heure de prise en charge</label>  */}
+                    {DatePicker(
+                      "Date et heure de prise en charge",
+                      1,
+                      setpickUpDate
+                    )}
+                  </Grid>
+                  <Grid xs={4}>
+                    {/* <label><CalendarMonthIcon/>Date et heure de restitution</label>  */}
+                    {DatePicker(
+                      "Date et heure de restitution",
+                      pickUpDate || 2,
+                      setpickDownDate
+                    )}
+                  </Grid>
+                  <Grid xs={1}>
+                    <IconButton
+                      aria-label="search"
+                      className="search"
+                      onClick={search}
+                    >
+                      <SearchIcon />
+                    </IconButton>
+                  </Grid>
 
-            {/* <Grid xs={8}>
+                  {/* <Grid xs={8}>
           <Item>Lieu de restitution identique</Item>
         </Grid> */}
-          </Grid>
-        </Paper>
+                </Grid>
+              </Paper>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

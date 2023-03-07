@@ -2,8 +2,8 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import "./navbar.css";
 export default function Navbar() {
   return (
-    <div>
-      <nav className="nav">
+    <nav className="nav" id="mainNav">
+      <div className="container-fluid">
         <ul>
           <div>
             <Link to="/">
@@ -45,7 +45,11 @@ export default function Navbar() {
                   alt=""
                 />
                 Num. Tunisien <br />
-                <a href="tel:0021653168168" rel="external" className="text-dark">
+                <a
+                  href="tel:0021653168168"
+                  rel="external"
+                  className="text-dark"
+                >
                   {" "}
                   (+216) 53 168 168
                 </a>
@@ -80,8 +84,8 @@ export default function Navbar() {
             </button>
           </div>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
 

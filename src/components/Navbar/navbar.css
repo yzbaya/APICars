@@ -1,8 +1,8 @@
 .nav {
-    z-index: 1;
+    z-index: 2;
     background-color: #fff;
     color: rgb(0, 0, 0);
-    display: flex;
+    display: block;
     position: fixed;
     font-family: 'Rubik', sans-serif;
     width: 500;
@@ -12,17 +12,24 @@
     height: 15vh;
     font-style: normal;
     font-weight: 600;
+    width: 100%;
+
+}
+
+#mainNav {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    transition: background-color 0.2s ease;
 }
 
 .nav1 {
-    z-index: 1;
+    z-index: 2;
     padding: 0;
     list-style: none;
     display: flex;
     position: center;
-    font-weight: 500;
-    height: 10vh;
     font-weight: 600;
+
 }
 
 .select {

@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import DataFetching from "./components/DataFetching/DataFetching";
+import DataFetching from "./components/DataFetching";
 //import Home from './components/home/Home.js';
 import Footer from "./components/Footer/footer";
 import Navbar from "./components/Navbar/navbar";
@@ -23,11 +23,15 @@ import Acceuil from "./components/Acceuil";
 // import Location from './components/pages/Location/Location'
 // import Team from './components/pages/Team';
 import Box from "@mui/material/Box";
+import Final from "./components/Final/lastPage";
 
+const theme = {
+  spacing: 6,
+};
 const App = () => {
   return (
     <div className="App">
-      <Box>
+      <div className="grid">
         <Navbar />
         <Routes>
           <Route
@@ -40,11 +44,55 @@ const App = () => {
             }
           />
           <Route
-            path="/steptwo"
+            path="/search"
             element={
-              <div>
+              <Box
+                sx={{
+                  mx: "60px",
+                  pt: 20,
+                  m: 1,
+                  borderRadius: 2,
+                  textAlign: "center",
+                  fontSize: "0.875rem",
+                  fontWeight: "700",
+                }}
+              >
                 <DataFetching />
-              </div>
+              </Box>
+            }
+          />
+          <Route
+            path="/reviewandbook"
+            element={
+              <Box
+                sx={{
+                  mx: "60px",
+                  pt: 20,
+                  m: 1,
+                  borderRadius: 2,
+                  fontSize: "0.875rem",
+                  fontWeight: "700",
+                }}
+              >
+                <Appel />
+              </Box>
+            }
+          />
+          <Route
+            path="/reviewandbook1"
+            element={
+              <Box
+                sx={{
+                  mx: "60px",
+                  pt: 20,
+                  m: 1,
+                  borderRadius: 2,
+                  fontSize: "0.875rem",
+                  fontWeight: "700",
+                }}
+              >
+                <Final />
+              </Box>
             }
           />
         </Routes>
@@ -52,7 +100,7 @@ const App = () => {
         {/* <DataFetching/> */}
         {/* <Appel/> */}
         <Footer />
-      </Box>
+      </div>
     </div>
   );
 };

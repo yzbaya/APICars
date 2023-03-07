@@ -25,7 +25,7 @@ const Img = styled("img")({
   maxHeight: "45px",
 });
   return (
-    <Grid className='self-center1' sx={{ flexGrow: 1 ,width:'auto' ,margin:2 }}>
+    <Grid className='self-center1' sx={{ flexGrow: 1 ,width:800,margin:2 }}>
       
       <Grid  container spacing={2} xs={12} >
         <Grid xs={2}>
@@ -42,11 +42,11 @@ const Img = styled("img")({
 
 
        <Grid xs={4}>
-          <Item>4.00 TND </Item>
+          <Item>4.00 TND   </Item>
         </Grid>
 
         <Grid xs={2}>
-          <Item> {Counter()} </Item>
+          <Item> {Counter()}  </Item>
         </Grid>
 
         </Grid>
@@ -77,9 +77,16 @@ const Img = styled("img")({
         </Grid>  
 
 
+    
     </Grid>
     
   );
  }
 
 export default ServicesAdd;
+
+
+
+
+
+
