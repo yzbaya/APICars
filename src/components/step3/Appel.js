@@ -51,8 +51,8 @@ export default function Appel() {
       <div>{Cond()}</div>
         </div>  
         <div>
-             <button type="button" class="btn-btn2">Valider ma réservation</button>
-              <button type="button" class="button-38">Retour</button>    
+             <button type="button" className="btn-btn2">Valider ma réservation</button>
+              <button type="button" className="button-38">Retour</button>    
         </div>  
              
       </Paper>

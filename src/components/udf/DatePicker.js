@@ -10,7 +10,7 @@ import moment from "moment";
 
 import Stack from "@mui/material/Stack";
 
-const DatePicker = function (label, days, pickUpDate) {
+const DatePicker = function (label, days, setDate) {
   const [value, setValue] = React.useState(
     dayjs(moment(Date.now()).add(days, "d"))
   );
@@ -23,13 +23,15 @@ const DatePicker = function (label, days, pickUpDate) {
           value={value}
           onChange={(newValue) => {
             setValue(newValue);
+            setDate(newValue);
           }}
           onSubmit={(newValue) => {
             console.log(newValue);
-            console.log("date", moment(newValue, "MM-DD-YYYY"));
-            console.log("time", moment(newValue, "HH-mm"));
+            // console.log("date", moment(newValue, "MM-DD-YYYY"));
+            // console.log("time", moment(newValue, "HH-mm"));
 
             setValue(newValue);
+            setDate({ a: 10 });
           }}
           minDateTime={dayjs(moment(Date.now()))}
           // minTime={pickUpDate?}

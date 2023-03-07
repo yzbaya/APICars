@@ -30,7 +30,7 @@ const Item = styled(Paper)(({ theme }) => ({
           <Grid item xs={3}>
             
              <Item>
-               <span class="nbr_icon">01</span>
+               <span className="nbr_icon">01</span>
                <div className='img-fluid'> 
                 <img  src="https://www.citygo.tn/assets/img/calendar.png" alt="Icon"  width="50" height="50"></img>
                 <h4>Date & lieu</h4>
@@ -42,7 +42,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
         <Grid item xs={3}>
           <Item>
-              <span class="nbr_icon1">02</span>
+              <span className="nbr_icon1">02</span>
                <div className='img-fluid'> 
                 <img  src="https://www.citygo.tn/assets/img/CAR1.png" alt="Icon"  width="50" height="50"></img>
                 <h4>Choisissez une voiture</h4>
@@ -53,7 +53,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
         <Grid item xs={3}>
           <Item>
-             <span class="nbr_icon2">03</span>
+             <span className="nbr_icon2">03</span>
                  <div className='img-fluid'> 
                 <img  src="https://www.citygo.tn/assets/img/BOOKING.png" alt="Icon"  width="50" height="50"></img>
                 <h4>Faites une réservation</h4>
@@ -63,7 +63,7 @@ const Item = styled(Paper)(({ theme }) => ({
         </Grid>
         <Grid item xs={3}>
           <Item>
-             <span class="nbr_icon3">04</span>
+             <span className="nbr_icon3">04</span>
                 <div className='img-fluid'> 
                 <img  src="https://www.citygo.tn/assets/img/THUMB.png" alt="Icon"  width="50" height="50"></img>
                 <h4>Profitez de votre trajet</h4>

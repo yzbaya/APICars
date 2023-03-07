@@ -2,8 +2,8 @@ import * as React from "react";
 import TextField from "@mui/material/TextField";
 import Autocomplete from "@mui/material/Autocomplete";
 import Stack from "@mui/material/Stack";
-import './Search/Search.css'
-const Playground = function Playground() {
+import "./Search/Search.css";
+const Playground = function Playground(setlocality) {
   const defaultProps = {
     options: pays,
     getOptionLabel: (option) => option.name,
@@ -14,29 +14,28 @@ const Playground = function Playground() {
   const [value, setValue] = React.useState(null);
 
   return (
-  
-    <div className="Lieu"> 
-    
-     <Autocomplete
-      {...defaultProps}
-      id="controlled-demo"
-      value={value}
-      onChange={(event, newValue) => {
-        console.log("event", event);
-        console.log("newValue", newValue);
-        setValue(newValue);
-      }}
-      renderInput={(params) => (
-        <TextField
-          {...params}
-          label="Lieu de prise en charge"
-          variant="standard"
-        />
-      )}
-    />  
+    <div className="Lieu">
+      <Autocomplete
+        {...defaultProps}
+        id="controlled-demo"
+        value={value}
+        onChange={(event, newValue) => {
+          // console.log("event", event);
+          // console.log("newValue", newValue);
+          setlocality(newValue);
+          setValue(newValue);
+        }}
+        renderInput={(params) => (
+          <TextField
+            {...params}
+            label="Lieu de prise en charge"
+            variant="standard"
+          />
+        )}
+      />
     </div>
     // <Stack spacing={1} sx={{ width: 300 }}>
-   
+
     // </Stack>
   );
 };

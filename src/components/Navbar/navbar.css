@@ -1,4 +1,5 @@
 .nav {
+    z-index: 1;
     background-color: #fff;
     color: rgb(0, 0, 0);
     display: flex;
@@ -6,21 +7,22 @@
     font-family: 'Rubik', sans-serif;
     width: 500;
     font-size: 14px;
-    padding: 0 ;
+    padding: 0;
     text-transform: uppercase;
     height: 15vh;
     font-style: normal;
-        font-weight: 600;
+    font-weight: 600;
 }
 
 .nav1 {
+    z-index: 1;
     padding: 0;
     list-style: none;
     display: flex;
     position: center;
     font-weight: 500;
     height: 10vh;
-        font-weight: 600;
+    font-weight: 600;
 }
 
 .select {
@@ -31,6 +33,7 @@
     font-weight: 600;
     width: 160px;
 }
+
 .select1 {
     text-transform: uppercase;
     font-family: 'Rubik', sans-serif;
@@ -39,6 +42,7 @@
     font-weight: 600;
     width: 85px;
 }
+
 .nav ul {
     padding: 0;
     margin: 20px;
@@ -55,10 +59,12 @@
     padding: 0 15px;
 
 }
- .nav1 :hover {
+
+.nav1 :hover {
     color: rgb(255, 0, 0);
 
 }
+
 .button-18 {
     align-items: center;
     background-color: #FDAE38;
@@ -83,8 +89,8 @@
     transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
     user-select: none;
     -webkit-user-select: none;
-   
-    
+
+
 }
 
 .button-18:hover,
@@ -97,4 +103,3 @@
     background: #FDAE38;
     color: rgb(255, 255, 255, .7);
 }
-

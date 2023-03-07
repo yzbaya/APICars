@@ -122,7 +122,7 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom"
 </LocalizationProvider>
 </div>   
   <CustomLink to="/DataFetching">
-    <Button class="btn-btn1" >Devis et réservation </Button> 
+    <Button className="btn-btn1" >Devis et réservation </Button> 
     </CustomLink>
   
       </div>

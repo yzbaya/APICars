@@ -38,7 +38,7 @@ const ListInfo1 = (props) => {
 
         <Typography variant="body2" gutterBottom>
           {props.category.name}
-          <span class="badge badge-warning">
+          <span className="badge badge-warning">
             <b> sur commande</b>
           </span>
         </Typography>
@@ -64,7 +64,7 @@ const ListInfo2 = (props) => {
   return (
     <Grid xs={5}>
       <Typography variant="subtitle1" component="div" container>
-        <p class="text-warning">
+        <p className="text-warning">
           <b>Ce prix inclus</b>
         </p>
 
@@ -99,7 +99,7 @@ const ListPrice = (props) => {
           {props.totalAmount}
         </Typography>
       </Grid>
-      <button type="button" class="btn-btn">
+      <button type="button" className="btn-btn">
         Je réserve
       </button>
     </Box>
