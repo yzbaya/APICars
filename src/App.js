@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import DataFetching from "./components/DataFetching";
+import DataFetching from "./components/DataFetching/DataFetching";
 //import Home from './components/home/Home.js';
 import Footer from "./components/Footer/footer";
 import Navbar from "./components/Navbar/navbar";

@@ -7,17 +7,18 @@ import Form from './Form/Form';
 import DivVol from './vol/divVol';
 import RadioBut from './Payement/Payment'
 import Cond from './Condition/Condition'
+import DataFetchingStep3 from './DataFetchingStep3/DatafetchingStep3'
 export default function Appel() {
   return (
     <div>
- <div>  {stepper()}</div>
+ {/* <div>  {stepper()}</div> */}
     <Box
       sx={{
         display: 'flex',
         flexWrap: 'wrap',
         '& > :not(style)': {
           m: 4,
-          width: 899,
+          width: 640,
           height: 'auto',
           padding: 3,
         },
@@ -57,7 +58,9 @@ export default function Appel() {
              
       </Paper>
      
-      {/* <Paper elevation={3} /> */}
+       <Paper elevation={3} >
+        <DataFetchingStep3/>
+       </Paper>
     </Box>      
     </div>
    
