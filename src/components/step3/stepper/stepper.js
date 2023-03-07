@@ -10,10 +10,10 @@ const steps = [
   'Terminé!',
 ];
 
- function stepper() {
+ function stepper(n=1) {
   return (
     <Box sx={{ width: '100%' }}>
-      <Stepper activeStep={1} alternativeLabel>
+      <Stepper activeStep={n} alternativeLabel>
         {steps.map((label) => (
           <Step key={label}>
             <StepLabel>{label}</StepLabel>

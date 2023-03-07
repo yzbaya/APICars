@@ -5,12 +5,13 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import Box from "@mui/material/Box";
+
 import "../Footer/footer.css";
 function Footer() {
   return (
     <Box
       sx={{
-        mx: "60px",
+        // mx: "60px",
         py: 3,
         borderRadius: 2,
         bgcolor: "#000",
@@ -24,7 +25,7 @@ function Footer() {
       <div className="row py-5 border-bottom">
         <div className="col-md-4 col-sm-12 ">
           <h4>
-            <span className="span1">A</span>props
+            <span>A</span>props
           </h4>
           <p>
             CityGo est une agence de location de voitures en Tunisie qui met à
@@ -34,24 +35,22 @@ function Footer() {
         </div>
         <div className="col-md-3">
           <h4>
-            <span className="span1">S</span>ociété
+            <span>S</span>ociété
           </h4>
           <a href="">Conditions d'annulation</a>
           <br />
           <br />
           <h4>
-            <span className="span1">S</span>ervices client
+            <span>S</span>ervices client
           </h4>
           <a href="">Contact</a>
           <br />
           <a href="">Agences</a> <br />
-          <a href="http://localhost:3001/authentication/sign-in">
-            Espace client
-          </a>
+          <a href="">Espace client</a>
         </div>
         <div className="col-md-4 col-sm-12 ">
           <h4>
-            <span className="span1">N</span>os Contact
+            <span>N</span>os Contact
           </h4>
           <div className="col-md border-bottom">
             <FaHome /> Avenue Abdelhamid El Kadhi, Z1 La Corniche Sousse 4000
@@ -101,7 +100,7 @@ function Footer() {
 
         <div className="apropos1">
           © 2023 Tous droits réservés. CityGo.tn. Powered BY{" "}
-          <span className="span1">Booster BC</span>
+          <span className="color">Booster BC</span>
         </div>
       </div>
     </Box>
