@@ -74,7 +74,7 @@ export default function Navbar() {
             </div>
 
             <button className="button-18">
-              <CustomLink to="/">
+              <CustomLink to="http://localhost:3001/authentication/sign-in">
                 <img
                   alt=""
                   src={"https://www.citygo.tn/assets/img/user24.png"}

@@ -45,7 +45,9 @@ function Footer() {
           <a href="">Contact</a>
           <br />
           <a href="">Agences</a> <br />
-          <a href="">Espace client</a>
+          <a href="http://localhost:3001/authentication/sign-in">
+            Espace client
+          </a>
         </div>
         <div className="col-md-4 col-sm-12 ">
           <h4>
