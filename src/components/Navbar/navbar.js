@@ -79,7 +79,7 @@ export default function Navbar() {
                   alt=""
                   src={"https://www.citygo.tn/assets/img/user24.png"}
                 />
-                Espace Client
+                Espace Admin
               </CustomLink>
             </button>
           </div>
