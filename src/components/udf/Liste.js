@@ -84,15 +84,10 @@ const ListInfo2 = (props) => {
 const ListPrice = (props, stepTwo) => {
   return (
     <Box component="ul" aria-labelledby="category-b" item xs={3} className="ul">
-      <Grid item xs>
-        <Typography variant="subtitle1" component="div">
-          prix par jour
-        </Typography>
-      </Grid>
 
       <Grid item xs>
         <Typography variant="subtitle1" component="div">
-          prix pour n jour
+         <h5>prix </h5> 
         </Typography>
 
         <Typography variant="subtitle1" component="div">

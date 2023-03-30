@@ -25,7 +25,7 @@ function Footer() {
       <div className="row py-5 border-bottom">
         <div className="col-md-4 col-sm-12 ">
           <h4>
-            <span>A</span>props
+            <span className="color1">A</span>props
           </h4>
           <p>
             CityGo est une agence de location de voitures en Tunisie qui met à
@@ -35,13 +35,13 @@ function Footer() {
         </div>
         <div className="col-md-3">
           <h4>
-            <span>S</span>ociété
+            <span className="color1">S</span>ociété
           </h4>
           <a href="">Conditions d'annulation</a>
           <br />
           <br />
           <h4>
-            <span>S</span>ervices client
+            <span className="color1">S</span>ervices client
           </h4>
           <a href="">Contact</a>
           <br />
@@ -50,7 +50,7 @@ function Footer() {
         </div>
         <div className="col-md-4 col-sm-12 ">
           <h4>
-            <span>N</span>os Contact
+            <span className="color1">N</span>os Contact
           </h4>
           <div className="col-md border-bottom">
             <FaHome /> Avenue Abdelhamid El Kadhi, Z1 La Corniche Sousse 4000
