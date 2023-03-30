@@ -14,7 +14,6 @@ import Container from "@mui/material/Container";
 import { useNavigate } from "react-router-dom";
 
 const DataFetching = (aaa) => {
-  
   const { state } = useLocation();
   const navigate = useNavigate();
   const { error, isLoading, data } = useApi(
